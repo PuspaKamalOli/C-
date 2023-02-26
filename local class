@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int sum()
+{
+
+    class Add
+    {
+
+    public:
+        int add(int a, int b)
+        {
+
+            cout << "sum is: " << a + b;
+        };
+    };
+    Add a;
+    a.add(6, 7);
+};
+
+int main()
+{
+    sum();
+    return 0;
+}
