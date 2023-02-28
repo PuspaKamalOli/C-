@@ -1,0 +1,33 @@
+
+#include <iostream>
+using namespace std;
+class A
+{
+
+    int a, b;
+
+public:
+    void x()
+    {
+
+        cout << "hello sir" << endl;
+    };
+};
+
+class B : public A
+{
+
+public:
+    void y()
+    {
+
+        x();
+    };
+};
+int main()
+{
+    B obj;
+    obj.y();
+
+    return 0;
+}
