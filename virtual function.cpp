@@ -24,7 +24,7 @@ class derived_2 : public base
 };
 int main()
 {
-    base *ptr, a;
+    base *ptr;
     ptr = new derived_1;
     ptr->show();
 
